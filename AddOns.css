@@ -1,0 +1,52 @@
+/*Contenu step3*/
+#STEP3{
+    margin-left: 450px;
+    margin-top: -620px;
+ }
+ .b3{
+    background-color:#37E0FF ;
+ }
+ .h4{
+     color: rgb(3, 3, 73);
+     font-size: 20px;
+     margin-left: -230px;
+     
+     
+ }
+ .check{
+     border:2px rgb(168, 168, 172) solid;
+     border-radius: 5px;
+     margin-top:20px;
+     width: 500px;
+     height: 100px;
+     display: flex; 
+     justify-content: space-between;
+   }
+   .check:active{
+    border:2px rgb(3, 3, 73) solid;
+   }
+  
+   .input{
+    margin-left: 20px;
+    margin-right: 40px;
+   }
+   .gob{
+    margin-top: 110px;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 90px; 
+    background-color:  rgb(243, 233, 233);
+    
+
+}
+.next{
+  margin-left:500px ;
+  border-radius: 15px;
+  border: none;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(3, 3, 73);
+  color:white;
+}
+   

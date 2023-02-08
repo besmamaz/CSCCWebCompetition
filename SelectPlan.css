@@ -1,0 +1,124 @@
+/* le contenu pour step 2*/
+.STEP2{
+margin-left: 450px;    
+    margin-top: -600px;
+}
+.b2{
+    background-color:#37E0FF ;
+}
+h1{
+    font-size: 40px;
+    color: rgb(3, 3, 73);
+}
+p{
+    color:#B1B1B1 ;
+    margin-top: -20px;
+}
+.cards{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+.card{
+    height:190px;
+    width: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border:2px rgb(168, 168, 172) solid;
+    user-select: none;
+    transition: 0.5s;
+}
+.card:hover{
+    border:2px rgb(3, 3, 73) solid;
+    
+}
+input[type="radio"]:checked + .card{
+    border:2px rgb(3, 3, 73) solid;
+}
+input{
+    display: none;
+}
+
+img{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+h4{
+    color:rgb(3, 3, 73);
+    margin-left:10px;
+    margin-top: 60px;
+}
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    margin-left: 0px;
+    margin-top: 55px;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(3, 3, 73);
+    -webkit-transition: .4s;
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider{
+    background-color:rgb(3, 3, 73);
+}
+input:focus + .slider{
+    box-shadow: 0 0 1px rgb(3, 3, 73);
+}
+input:checked + .slider:before{
+    -webkit-transform: translateX(26px) ;
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round{
+    border-radius: 24px;
+}
+.slider.round:before{
+    border-radius: 50%;
+}
+.s{
+    display: flex;
+    margin-top: -220px;
+    margin-left: 150px;
+    
+}
+.gob{
+    margin-top: 110px;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 90px; 
+    background-color:  rgb(243, 233, 233);
+    color: rgb(3, 3, 73);
+
+}
+.next{
+  margin-left:500px ;
+  border-radius: 15px;
+  border: none;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(3, 3, 73);
+  color:white;
+}

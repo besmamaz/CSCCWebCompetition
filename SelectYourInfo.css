@@ -1,0 +1,20 @@
+.b1{
+    background-color:#37E0FF ;
+}
+#STEP1{
+    margin-left: 450px;
+    margin-top: -400px;
+}
+.next{
+    margin-top: 160px;
+    margin-left:500px ;
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(3, 3, 73);
+    color:white;
+}
+.next:hover{
+    background-color:#37E0FF ;
+}
